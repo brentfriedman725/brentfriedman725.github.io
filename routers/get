@@ -1,0 +1,14 @@
+const express = require('express');
+const router = new express.Router();
+root = '/Users/Brent Friedman/Desktop/Profile/front-end'
+
+router.get('/resume', (req, res) => {
+});
+
+router.get('/', (req, res) => {
+    res.sendFile(root + '/index.html');
+});
+
+
+
+module.exports = router;

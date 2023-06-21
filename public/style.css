@@ -1,0 +1,229 @@
+/* Add some basic styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+  }
+  
+  header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px dotted  black;
+    height: 200px
+  }
+
+
+  
+  h1 {
+    margin: 0;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+
+  p {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+  
+  nav {
+    padding: 10px;
+    background-color: white(0, 0, 0, 0.436);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  nav li a{
+    margin-left: 20px;
+    font-weight: 100;
+    color: black;
+    font-size: 25;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  
+  }
+  
+  #section1 {
+    
+    padding: 20px;
+    background-color: white;
+    background-size: cover;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 455/2px;
+    height: 683/2px;
+    border-radius: 50%;
+    border: 1px solid black
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #h2_1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #img1 {
+    width:400px
+  }
+
+  section {
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    display: inline;
+
+  }
+
+  ul a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  ul li {
+    margin: 50px;
+  }
+
+  hr.dashed {
+    border-top: 3px dashed #000000;
+    width: 30px;
+  }
+
+    /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  .imgContainer{
+    float:left;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a {
+    margin: 0px;
+  }
+  
+  footer {
+    background-color: white;
+    border-top: black dotted 1px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  button {
+    
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; 
+    
+  }
+  
+  button:hover {
+    text-decoration: underline;
+  }
+  

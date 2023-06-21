@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css">
+  <title>My Personal Website</title>
+</head>
+<body>
+  <header>
+    <h1>
+      
+      <button onclick="changeHeader()">BRENT FRIEDMAN</button>
+      
+    
+    </h1>
+    
+    
+  </header>
+    
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href=mailto:brentfriedman@berkeley.edu>CONTACT</a></li>
+      <li><a href="#" onclick="showResume(); return false;">RESUME</a></li>
+    </ul>
+  </nav>
+  <div id="section1">
+    <section>
+      <img src="prof_pic.jpg" alt="Avatar" class="avatar">
+      
+      <h2>Hi there!</h2>
+      <p>I'm Brent, web developer. My expertise lies in writing clean, elegant code for impactful programs.</p>
+    </section>
+</div>
+
+<hr class="dashed">
+
+
+  <section>
+    <h2 id="h2_1">MY PROJECTS</h2>
+    <ul>
+      <li><button id="gitletBtn">Gitlet</button></li>
+      <div id="gitletModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p style="font-weight: bold; font-size: 30px;">Gitlet</p>
+            <img id="img1" src='gitlet_start.png'/>
+            <p>Gitlet is a recreation of the known-and-loved version control system, <a href="https://en.wikipedia.org/wiki/Git">Git</a>. 
+              This project, programmed in Java, implements all of the features of Git: local and remote repositories, branches, commits, merges, 
+              commit checkouts, branch checkouts, and more. Persistence, serialization, hashing, and file manipulation are
+              just a few of the concepts that I enjoyed through this project. The TreeMap data structure was utilized to not only track commits, but
+              also do so in optimal time.
+            </p>
+            <p><a href="https://github.com/brentfriedman725/git-project">Github Link</a></p>
+        </div>
+      </div>
+
+      <li><button id="parkBtn">Parking Meters</button></li>
+      <div id="parkModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+            <p style="font-weight: bold; font-size: 30px;">Parking Meters</p>
+            <img id="img1" src='park_start.png'/>
+            <p>**IN PROGRESS**</p>
+            <p> This project utilizes real-time data via the <a href="https://data.lacity.org/Transportation/LADOT-Parking-Meter-Occupancy/e7h6-4a3e">LADOT public database</a>
+              to show a map of all available parking meter spots at any given time. Data at time of request is stored in a PostgreSQL database
+              to allow for quicker access and improved data analysis. Eventually, this program will show all available spots in an area specified by the user.
+
+            </p>
+            <p><a href="https://github.com/brentfriedman725/parking-meters">Github Link</a></p>
+
+        </div>
+      </div>
+
+      <li><button id="ataxxBtn">Ataxx AI</button></li>
+      <div id="ataxxModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+            <p style="font-weight: bold; font-size: 30px;">Ataxx AI</p>
+            <img src='Ataxx_start.png'/>
+            <p><a href="https://en.wikipedia.org/wiki/Ataxx">Ataxx</a> is two player strategy board game played on a 7x7 board. 
+            Players alternate turns either jumping or extending pieces to capture the opponent's pieces. Utilizing the object-oriented nature of Java,
+            this project incorperates stacks and arraylists to develop command-line and GUI versions of Ataxx with optimized time complexity. 
+            For single-player mode, a strong AI is implemented using game trees and alpha-beta pruning algorithms.
+            </p>
+            <p><a href="https://github.com/brentfriedman725/strategy-game">Github Link</a></p>
+
+        </div>
+      </div>
+
+      
+    </ul>
+
+
+
+  </section>
+  <footer>
+    <p>&copy; 2023 My Personal Website</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button style="font-size:24px" onclick="location.href='https://www.linkedin.com/in/brent-friedman725';" ><i class="fa fa-linkedin-square"></i></button>
+    <a button style="font-size:24px; color: black;" href=mailto:brentfriedman@berkeley.edu><i class="fa fa-envelope"></i></button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
