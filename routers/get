@@ -1,6 +1,6 @@
 const express = require('express');
 const router = new express.Router();
-root = '/Users/Brent Friedman/Desktop/Profile/front-end'
+root = '/Users/Brent Friedman/Desktop/Profile/'
 
 router.get('/resume', (req, res) => {
 });
