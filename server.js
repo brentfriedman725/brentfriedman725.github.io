@@ -7,7 +7,7 @@ const getRequest = require('./routers/get');
 
 app.listen(process.env.PORT || 8000, () => console.log("Server running."));
 
-app.use(express.static('public'));
+app.use(express.static('docs'));
 
 app.use(express.json());
 app.use(bodyParser.json());
