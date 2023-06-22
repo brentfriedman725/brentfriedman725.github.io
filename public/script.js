@@ -37,7 +37,7 @@ window.onclick = function(event) {
 
 var ataxxModal = document.getElementById("ataxxModal");
 var ataxxBtn = document.getElementById("ataxxBtn");
-var ataxxSpan = document.getElementsByClassName("close")[1];
+var ataxxSpan = document.getElementsByClassName("close")[2];
 ataxxBtn.onclick = function() {
   ataxxModal.style.display = "block";
 }
@@ -60,7 +60,7 @@ window.onclick = function(event) {
 
 var parkModal = document.getElementById("parkModal");
 var parkBtn = document.getElementById("parkBtn");
-var parkSpan = document.getElementsByClassName("close")[2];
+var parkSpan = document.getElementsByClassName("close")[1];
 parkBtn.onclick = function() {
   parkModal.style.display = "block";
 }
