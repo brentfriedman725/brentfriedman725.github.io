@@ -116,6 +116,10 @@ body {
     width:400px
   }
 
+  #carGif {
+    width:800px
+  }
+
   section {
     margin-top: 60px;
     text-align: center;

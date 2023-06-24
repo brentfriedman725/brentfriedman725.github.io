@@ -75,5 +75,29 @@ window.onclick = function(event) {
   }
 }
 
-/** END ATAXX MODAL */
+/** END PARKING METER MODAL */
+
+
+/** CARS MODAL */
+
+
+
+var carsModal = document.getElementById("carsModal");
+var carsBtn = document.getElementById("carsBtn");
+var carsSpan = document.getElementsByClassName("close")[3];
+carsBtn.onclick = function() {
+  carsModal.style.display = "block";
+}
+
+carsSpan.onclick = function() {
+  carsModal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == carsModal) {
+    carsModal.style.display = "none";
+  }
+}
+
+/** END CARS MODAL */
 
