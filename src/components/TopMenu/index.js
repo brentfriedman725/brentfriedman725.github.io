@@ -22,7 +22,6 @@ function TopMenu({
     { name: "home", icon: TwitterIcon, route: "/home" },
     { name: "resume", icon: TwitterIcon, route: "/resume" },
     { name: "projects", icon: TwitterIcon, route: "/projects" },
-    { name: "contact", icon: TwitterIcon, route: "/contact" },
 
   ];
 

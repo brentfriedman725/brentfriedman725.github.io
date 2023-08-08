@@ -10,11 +10,10 @@ import ThemeMui from "./theme/ThemeMui";
 function App() {
   return (
     <AppWrapper>
-    <ThemeMui>
-          <ThemeStyled>
+      <ThemeMui>
+        <ThemeStyled>
           <Router>
             <Routes>
-              
               <Route
                 path="/"
                 element={
@@ -23,15 +22,28 @@ function App() {
                   </>
                 }
               />
-              
-                
-              </Routes>
+            </Routes>
           </Router>
-          </ThemeStyled>
-        </ThemeMui>
-        </AppWrapper>
+        </ThemeStyled>
+      </ThemeMui>
+    </AppWrapper>
   );
 }
+
+
+
+
+const IconLink = styled.a`
+  margin: 0 15px;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #0077b5;  // You can change this to the desired hover color
+  }
+`;
+
 
 
 const AppWrapper = styled.div`

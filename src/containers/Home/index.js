@@ -47,7 +47,7 @@ const ProfileImage = styled.img`
 `;
 
 const Title = styled.h1`
-  color: ${props => props.theme.palette.headerGreen};
+  color: ${props => props.theme.palette.secondaryTextGreen};
   font-size: 2.5rem;
   font-family: ${props => props.theme.typography.primaryText.fontFamily};
   font-weight: ${props => props.theme.typography.primaryText.fontWeight};

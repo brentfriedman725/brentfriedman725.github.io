@@ -14,6 +14,7 @@ import Resume from "../Resume";
 import Projects from "../Projects";
 import Contact from "../Contact";
 import TopMenu from "../../components/TopMenu";
+import Footer from "../../components/Footer";
 
 export function HomePage() {
 
@@ -34,10 +35,10 @@ export function HomePage() {
           {activeTab === "home" && <Home setActiveTab={setActiveTab}/>}
           {activeTab === "resume" && <Resume />}
           {activeTab === "projects" && <Projects />}
-          {activeTab === "contact" && <Contact />}
           
           
         </Content>
+        <Footer />
       </AppContent>
     </DashboardWrapper>
   );
@@ -45,20 +46,25 @@ export function HomePage() {
 
 
 const DashboardWrapper = styled.div`
-  height: 100%;
-`;
-
-const AppContent = styled.section`
-  display: flex;
-  width: 100%;
-  height: 100%;
-  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
 `;
 
 const Content = styled.div`
   flex: 1;
   padding: 20px 40px;
+  position: relative;
 `;
+
+
+const AppContent = styled.section`
+  display: flex;
+  width: 100%;
+  height: 100%; 
+  flex-direction: column;
+`;
+
+
 
 
 export default HomePage;
